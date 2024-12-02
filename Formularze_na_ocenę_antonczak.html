@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl -PL">
+<head>
+  		<tilte style="background_color:grey;"> Strona Antoniego - Projektowanie Stron Internetowych </tilte>
+  		<meta charset="UTF-8"/>
+		<meta name="viewport" content=width=device-device-width, initial-scale="1.0"/>
+</head>
+<body>
+			<div style="background-color:grey">
+						<h1> <center> Projektowanie Stron Internetowych - Antoni Antończak </center> </h1>
+			</div>
+			<div style="float:left; width:20%; height:550px;">
+						<h3> HTML </h3>
+										<a href="index.html"> Strona główna </a> <br />
+										<a href="kolory.html"> Kolory </a> <br />
+										<a href="nauczyciele.html"> Nauczyciele </a> <br />
+										<a href="zdjęcia.html"> Zdjęcia </a> <br />
+										<a href="tabela.html"> Tabele </a> <br />
+										<a href="tabele_Antonczak.html"> Tabele na ocenę </a> <br />
+										<a href="listy.html"> Listy </a> <br />
+										<a href="listy_antonczak.html"> Listy na ocenę </a> <br />
+						<h3> CSS </h3>
+						<h3> DOKUMENTY </h3>
+										<a href="doc/grupa12c.docx" target="new"> Lista grupy 1 </a><br />
+										<a href="doc/Wydatki_gr1_2c.xlsx" target="new"> Wydatki grupy 1 </a><br />
+						<h3> LINKI </h3>
+										DO ZROBIENIA
+						<h3> MULTIMEDIA </h3>
+			</div>
+			<div style="Float:right; width:80%;">
+				<form>
+					<fieldset>
+						<legend style="color:red"> Dane Osobowe </legend>
+							<p align="left"> Miejscowość data <br />
+								<input type="text" name="miejscowosc_data" size="40"/> </p>
+							<p> Imie <input type="text" name="Imie" /> 
+							Nazwisko <input type="text" name="Nazwisko" /> </p>
+					
+							<p> Adres zamieszkania <br /> <br /> <textarea name="adres_zamieszkania" cols="50" rows="3" style="width:220px ; height: 60px"> </textarea>
+							<p> <b> Telefon kontaktowy &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp E-mail </b> <br /> <input type="text" name="numer_telefonu" value="+48 500 000 000" size="30" maxlength="15" /> 
+								 <input type="email" name="email" value="przykladowy.mail@gmail.com" size="30" /> </p>
+					</fieldset>
+					<fieldset>
+						<legend style="color:red"> Formularz Zwrotu Butów </legend>
+							<p> Zwracam w niezniszczonym stanie : </p> <br /> 
+							<p> <b> Nazwa - Marka - Towaru : </b> <br />  <input type="text" name="nazwa_marka_towaru" size="40" /> </p>
+							<p> <b>Kolor - Indeks Towaru &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp - Rozmiar </b> <br /> 
+								<input type="color" name="kolor_buta"  /> <input type="text" name="indeks_towaru" size="30px" /> 
+								<input type="checkbox" name="rozmiar" value="rozmiar1" /> 37
+								<input type="checkbox" name="rozmiar" value="rozmiar2" /> 38 
+								<input type="checkbox" name="rozmiar" value="rozmiar3" /> 39 
+								<input type="checkbox" name="rozmiar" value="rozmiar4" /> 40 
+								<input type="checkbox" name="rozmiar" value="rozmiar5" /> 41 
+								<input type="checkbox" name="rozmiar" value="rozmiar6" /> 42 
+								<input type="checkbox" name="rozmiar" value="rozmiar7" /> 43 
+								<input type="checkbox" name="rozmiar" value="rozmiar8" /> 44 
+								<input type="checkbox" name="rozmiar" value="rozmiar9" /> 45 </p>
+							
+							<p> Dla kogo : </br>
+								<label for="meskie"> męskie </label>
+									<input type="radio" name="plec" id="meskie" value="meskie"> <br/ >
+								<label for="damskie"> damskie </label>
+									<input type="radio" name="plec" id="damskie" value="damskie"> <br/ >										
+							</p>
+							
+							<p> Data zakupu : <br />
+								<input type="date" name="data" > </p>
+								
+							<p> Przyczyna zwrotu : <br /> 
+								<br /> <textarea name="przyczyna_zwrotu" cols="50" rows="3" style="width:220px ; height: 60px"> </textarea> <br /> 
+								<br /> Kwota zwrotu :
+								<br /> <input type="text" name="kwota" size="30px" /> <br /> 
+								<br /> Dane do przelewu :
+								<br /> <textarea name="dane_zwrotu" cols="50" rows="3" style="width:220px ; height: 60px" value=""> Imię i nazwisko &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Miejsce zamieszkania &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Numer Konta </textarea> </p>
+								
+							<p> Zgodnie z ustawą z dnia 30 Maja 2014r. O prawach konsumenta (Dz. U. Z dnia 24 Czerwca 2014r. poz. 827) Niniejszym oznajmiam że odstępuje od umowy sprzedaży. </p>
+							
+							<p> <input type="text" name="podpis_data" size="30px" style="align:left" />
+							Data i podpis Klienta: </p>
+							
+							<p align="center"> <button type="button " name="wyslij" value="Wyślij!" onclick="alert('Wysłano')" /> Wyślij </p>
+				
+			</div>
+			<div style="background-color:grey; clear:both;"><center> &copy, A.A., October 2024</center></div>
+</body>
+</html>
